@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    background-color: aqua;
+    background-image: url(greenfield.webp);
+    background-size: contain;
+}
+
+#box2{
+    background-color: lightcoral;
+    background-image: url(lake.webp);
+    background-size: cover;
+}
+
+#box3{
+    background-color: lightyellow;
+    background-image: url(mountain.webp);
+    background-size: cover;
+}
+
+#box4{
+    background-color: blueviolet;
+    background-image: url(ocean.webp);
+    background-size: cover;
+}

@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+button{
+    background-color: yellow;
+}
+
+#logo {
+    color: yellow;
+    font-size: 25px;
+}
+
+a{
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+.ContentBox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    color: #0f1111;
+}
+#content{
+    height: 500px;
+}
+#box1{
+    background-color: lightblue;
+}
+
+#box2{
+    background-color: pink;
+}
+
+#box3{
+    background-color: lightsalmon;
+}
+
+
+footer{
+    background-color: #0f1111;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
